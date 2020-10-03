@@ -56,7 +56,6 @@ li a:hover{
 .cloudimg2{
     position: absolute;
     bottom: 25em;
-    
 }
 img{
     margin-top: 6.4em;
@@ -80,7 +79,6 @@ h3{
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    
 }
 .about-me{
     height: auto;
@@ -181,8 +179,7 @@ hr{
     width: 100%;
     background-color: rgb(224, 235, 232); 
     clear: both;
-    position: relative;
-    height: 150px;
+    height: auto;
 }
 .fab{
     color: rgb(74, 177, 154);
