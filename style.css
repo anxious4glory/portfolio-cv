@@ -182,9 +182,7 @@ hr{
     background-color: rgb(224, 235, 232); 
     clear: both;
     position: relative;
-    height: 100px;
-    bottom: 0;
-    left: 0;
+    height: 150px;
 }
 .fab{
     color: rgb(74, 177, 154);
