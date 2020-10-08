@@ -55,6 +55,7 @@ text-align: right;
     .nav{
         display: block;
         margin-right: 15px;
+        margin-left: 320px;
         padding: 3px;
         position: relative;
         top: 5px;
@@ -65,9 +66,9 @@ text-align: right;
 .land{
     width: 100%;
     position: relative;
-    top: 4px;
-    margin-top: auto;
-    height:15em;
+    top: 4px !important;
+    margin-top: auto !important;
+    height:15em !important;
 }
 
 img{
