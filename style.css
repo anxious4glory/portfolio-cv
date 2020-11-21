@@ -61,6 +61,7 @@ text-align: right;
         top: 15px !important;
         right: 20px !important;
         font-size: 8pt !important;
+	font-weight: bolder !important;
         }
         .header-logo{
             height: 50px !important;
@@ -76,7 +77,9 @@ text-align: right;
          font-size: 0.7em !important;
      }
      .btn{
-         font-size: 0.9em !important;
+          font-size: 0.9em !important;
+         font-weight: bolder !important;
+         text-align: center !important;
          width: 150px !important;
      }
 	body{
