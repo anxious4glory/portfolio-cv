@@ -52,15 +52,33 @@ text-align: right;
 }
 
 @media screen and (max-width: 600px) {
-    .nav{
+       .nav{
         display: block;
-        margin-right: 22px !important;
-        margin-left: 320px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
         padding: 3px !important;
         position: relative !important;
-        top: 5px !important;
-        font-size: 12pt !important;
+        top: 15px !important;
+        right: 20px !important;
+        font-size: 8pt !important;
         }
+        .header-logo{
+            height: 50px !important;
+            width: 50px !important; 
+        }
+       .about-img{
+            height: 100px !important;
+        }
+       .copyright{
+            font-size: 10px !important;
+         }
+     .fontawe{
+         font-size: 0.7em !important;
+     }
+     .btn{
+         font-size: 0.9em !important;
+         width: 150px !important;
+     }
 }
 
 .land{
