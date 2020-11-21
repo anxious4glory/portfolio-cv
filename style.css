@@ -79,6 +79,15 @@ text-align: right;
          font-size: 0.9em !important;
          width: 150px !important;
      }
+	body{
+         font-size: 8pt !important;
+     }
+     h1{
+         font-size: 30pt !important;
+     }
+     .st-p{
+        font-size: 8pt !important;
+     }
 }
 
 .land{
