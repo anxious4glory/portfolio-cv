@@ -4,7 +4,8 @@ module.exports = {
     "./src/**/*.{html,js}",
     "./public/index.html",
     "./public/styles/default.css",
-    "./node_modules/flowbite/**/*.js"
+    "./node_modules/flowbite/**/*.js",
+    "./node_modules/flowbite/"
   ],
   theme: {
     colors: {
