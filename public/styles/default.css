@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body *{
+    transition: 0.3s;
+    font-family: 'Arapey', serif;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.hero {
+position: relative;
+background-color: #14AF93;
+height: 700px;
+}
+
+.custom-shape-divider-top-1690099485 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1690099485 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1690099485 .shape-fill {
+    fill: #535DA1;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1690099485 svg {
+        width: calc(100% + 1.3px);
+        height: 410px;
+    }
+}
+
+.section2 {
+    height: auto;
+}
+
+.section2Img2 {
+    width: auto !important;
+}
+
+.section3{
+    width: 100%;
+    height: auto;
+}
+
+
+  .contactTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  }
+
+  .contactTable td:first-child {
+    padding: 20px;
+  }
+
+  .contactTable tr:nth-child(even){background-color: #f2f2f2;}
+
+  table.contactTable {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+table.contactTable {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+   }
+   
+   /* Apply a border to the right of all but the last column */
+   table.contactTable th:not(:last-child),
+   table.contactTable td:not(:last-child) {
+    border-right: 1px solid #ddd;
+   }
+   
+   /* Apply a border to the bottom of all but the last row */
+   table.contactTable>thead>tr:not(:last-child)>th,
+   table.contactTable>thead>tr:not(:last-child)>td,
+   table.contactTable>tbody>tr:not(:last-child)>th,
+   table.contactTable>tbody>tr:not(:last-child)>td,
+   table.contactTable>tfoot>tr:not(:last-child)>th,
+   table.contactTable>tfoot>tr:not(:last-child)>td,
+   table.contactTable>tr:not(:last-child)>td,
+   table.contactTable>tr:not(:last-child)>th,
+   table.contactTable>thead:not(:last-child),
+   table.contactTable>tbody:not(:last-child),
+   table.contactTable>tfoot:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+   }
+
+   table.contactTable2 {
+    border: 1px solid #ddd;
+   }
+
+   .contactTable2 td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+
+  .contactTable2 td {
+    padding: 40px;
+    border-top: none !important;
+  }
+
+  .serviceSecHeader {
+    width: 800px;
+}
+
+.card {
+  width: 400px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.contactForm {
+  background-color: #F9F9F9;
+  height: auto;
+}
+
+.contactSecHeader {
+  width: 500px;
+}
+
+form {
+  width: 532px;
+}
+
+textarea {
+  width: 530px;
+}
