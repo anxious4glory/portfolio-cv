@@ -133,8 +133,15 @@ table.contactTable {
   }
 
   .serviceSecHeader {
-    width: 800px;
+    width: 800px !important;
+    
 }
+
+@media (max-width: 1024px) { 
+  .serviceSecHeader {
+    width: 200px !important;
+}
+   }
 
 .card {
   width: 400px;
