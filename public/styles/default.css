@@ -141,6 +141,12 @@ table.contactTable {
   .serviceSecHeader {
     width: 200px !important;
 }
+.contactSecHeader {
+  width: 200px !important;
+}
+textarea {
+  width: 470px !important;
+}
    }
 
 .card {
